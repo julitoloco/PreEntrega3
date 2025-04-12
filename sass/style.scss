@@ -1,0 +1,109 @@
+
+
+@import 'global';
+@import 'images';
+@import 'variables';
+@import 'mixins';
+
+
+  .logo {
+    @include logo-size;
+  }
+
+
+  .titulo {
+    @include titulo-style;
+  }
+  
+  
+  .titulito,
+  .parrafo {
+    font-family: $heading-font;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .lista-desordenada {
+    @include lista-style;
+  }
+
+  
+  .lista {
+    li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+  
+  .caniggia {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+  }
+  
+
+  .form-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .buttonContact {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 680px) {
+    .titulo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: right;
+      display: block;
+      margin-right: 1rem;
+    }
+  
+    .lista {
+      text-align: right;
+      display: block;
+      margin-right: 1rem;
+      margin-top: 3rem;
+    }
+  
+    .caniggiaimg {
+      height: 80px;
+      width: 80px;
+      top: 2rem;
+    }
+  
+    .caniggia {
+      top: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 530px) {
+    .lista li {
+      margin-top: 1.5rem;
+    }
+  }
+  
+  .contactarnos {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+  
+    a {
+      cursor: pointer;
+    }
+  }
+  
+  .custom-width {
+    width: 98%;
+  }
+  

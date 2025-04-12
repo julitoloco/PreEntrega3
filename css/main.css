@@ -1,0 +1,164 @@
+h1,
+h2 {
+  color: #883e3e;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+header {
+  font-family: sans-serif;
+  margin: 8px;
+  padding: 0;
+  background-color: #a72121;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+header nav ul li a {
+  color: #4f1b1b;
+  text-decoration: none;
+}
+header nav div ul {
+  display: inline;
+  margin: 0 1rem;
+}
+header nav div ul li a {
+  color: #fff;
+  text-decoration: underline;
+  list-style: none;
+  padding: 0;
+}
+
+footer {
+  background-color: #a72121;
+  color: #fff;
+  text-align: center;
+  padding: 0.3rem 0;
+  margin-top: 2rem;
+  width: 100%;
+  bottom: 0;
+}
+
+.caniggiaimg {
+  color: black;
+  box-shadow: 10px 10px 10px 0.5cap;
+  border-radius: 1cap;
+  height: 120px;
+  width: 120px;
+}
+
+.indeximg-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.indeximg {
+  width: 90%;
+}
+
+.logo {
+  width: 50px;
+  height: 10%;
+}
+
+.titulo {
+  color: #42280b;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titulito,
+.parrafo {
+  font-family: "Fjalla One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lista-desordenada {
+  font-family: "Amatic SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lista li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.caniggia {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.buttonContact {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media (max-width: 680px) {
+  .titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+    display: block;
+    margin-right: 1rem;
+  }
+  .lista {
+    text-align: right;
+    display: block;
+    margin-right: 1rem;
+    margin-top: 3rem;
+  }
+  .caniggiaimg {
+    height: 80px;
+    width: 80px;
+    top: 2rem;
+  }
+  .caniggia {
+    top: 1.5rem;
+  }
+}
+@media (max-width: 530px) {
+  .lista li {
+    margin-top: 1.5rem;
+  }
+}
+.contactarnos {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.contactarnos a {
+  cursor: pointer;
+}
+
+.custom-width {
+  width: 98%;
+}
+
+/*# sourceMappingURL=main.css.map */

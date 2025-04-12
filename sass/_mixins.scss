@@ -1,0 +1,20 @@
+@mixin logo-size {
+    width: 50px;
+    height: 10%;
+  }
+
+  @mixin titulo-style {
+    color: $text-color;
+    text-align: center;
+    font-size: 50px;
+    font-family: $main-font;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @mixin lista-style {
+    font-family: "Amatic SC", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
