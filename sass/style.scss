@@ -5,18 +5,17 @@
 @import 'variables';
 @import 'mixins';
 
-
-  .logo {
+.logo {
     @include logo-size;
   }
 
 
-  .titulo {
+.titulo {
     @include titulo-style;
   }
   
   
-  .titulito,
+.titulito,
   .parrafo {
     font-family: $heading-font;
     font-weight: 400;
@@ -25,43 +24,43 @@
   }
 
 
-  .lista-desordenada {
+.lista-desordenada {
     @include lista-style;
   }
 
   
-  .lista {
+.lista {
     li {
       display: inline-block;
       margin-right: 10px;
     }
   }
   
-  .caniggia {
+.caniggia {
     position: absolute;
     top: 1rem;
     left: 2rem;
   }
   
 
-  .form-button {
+.form-button {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
   }
   
-  .buttonContact {
+.buttonContact {
     display: flex;
     justify-content: flex-end;
     margin-top: 2rem;
   }
   
-  .pointer {
+.pointer {
     cursor: pointer;
   }
   
 
-  @media (max-width: 680px) {
+@media (max-width: 680px) {
     .titulo {
       font-size: 1.5rem;
       font-weight: bold;
@@ -70,14 +69,14 @@
       margin-right: 1rem;
     }
   
-    .lista {
+.lista {
       text-align: right;
       display: block;
       margin-right: 1rem;
       margin-top: 3rem;
     }
   
-    .caniggiaimg {
+.caniggiaimg {
       height: 80px;
       width: 80px;
       top: 2rem;
@@ -88,13 +87,13 @@
     }
   }
   
-  @media (max-width: 530px) {
+@media (max-width: 530px) {
     .lista li {
       margin-top: 1.5rem;
     }
   }
   
-  .contactarnos {
+.contactarnos {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
