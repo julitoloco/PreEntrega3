@@ -1,3 +1,5 @@
+
+
 h1,
 h2 {
   color: #883e3e;
@@ -44,6 +46,8 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
+main {padding: 1rem }
 
 /* animacion boton contáctenos */
 
@@ -231,5 +235,3 @@ footer {
 .custom-width {
   width: 98%;
 }
-
-
